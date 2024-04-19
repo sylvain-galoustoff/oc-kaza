@@ -1,0 +1,36 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+body {
+  padding-top: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  color: $black;
+}
+
+h1,
+.h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.container {
+  width: 335px;
+  margin: auto;
+}
+
+img.responsive {
+  width: 100%;
+  height: auto;
+}
