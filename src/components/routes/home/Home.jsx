@@ -1,7 +1,13 @@
+import LogementCard from "./LogementCard";
+
 function Home() {
   return (
     <div className="page container" id="home">
-      HOME COMPONENT
+      <LogementCard />
+      <LogementCard />
+      <LogementCard />
+      <LogementCard />
+      <LogementCard />
     </div>
   );
 }
