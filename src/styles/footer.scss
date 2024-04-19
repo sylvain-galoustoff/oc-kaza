@@ -1,0 +1,21 @@
+footer {
+  background-color: $black;
+  color: $white;
+
+  .container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+#footer-logo,
+#legal {
+  width: 120px;
+}
+
+#legal {
+  font-size: 12px;
+  text-align: center;
+}

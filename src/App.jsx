@@ -4,6 +4,7 @@ import Jumbo from "./components/common/Jumbo";
 import Home from "./components/routes/home/Home";
 import About from "./components/routes/about/About";
 import Logement from "./components/routes/logement/Logement";
+import Footer from "./components/common/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/a-propos" element={<About />} />
         <Route path="/logement/:id" element={<Logement />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
