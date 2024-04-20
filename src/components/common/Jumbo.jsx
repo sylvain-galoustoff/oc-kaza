@@ -16,7 +16,7 @@ function Jumbo() {
   }, [setImgSrc, location]);
 
   return (
-    <div id="jumbo" className="container">
+    <div id="jumbo">
       <img className="responsive" src={imgSrc} alt="paysage d'illustration" />
       <div className="layer">
         <h1 id="slogan">Chez vous, partout et ailleurs</h1>

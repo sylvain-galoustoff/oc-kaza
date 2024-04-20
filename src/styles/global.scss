@@ -47,8 +47,11 @@ h2 {
 }
 
 .container {
-  width: 335px;
+  width: 80%;
+  min-width: 335px;
+  max-width: 1240px;
   margin: 0 auto;
+  @include dev;
 }
 
 img.responsive {

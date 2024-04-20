@@ -1,0 +1,25 @@
+#not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+  a {
+    color: $black;
+    font-size: 14px;
+  }
+}
+
+#big-404 {
+  color: $primary;
+  font-size: 96px;
+  font-weight: 700;
+}
+
+#error-message {
+  text-align: center;
+  color: $primary;
+  font-weight: 500;
+  font-size: 18px;
+}
