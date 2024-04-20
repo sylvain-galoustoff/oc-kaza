@@ -1,0 +1,46 @@
+.dropdown {
+  &.open {
+    .chevron {
+      transform: rotate(180deg);
+    }
+
+    .dropdown-body {
+      max-height: 10000px;
+    }
+  }
+}
+
+.dropdown-header {
+  background-color: $primary;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  height: 30px;
+  border-radius: $radius;
+  margin-bottom: 10px;
+
+  span {
+    font-size: 13px;
+    font-weight: 700;
+    color: $white;
+
+    &::first-letter {
+      text-transform: capitalize;
+    }
+  }
+
+}
+
+.chevron {
+  width: 16px;
+  height: auto;
+  @include trans(max-height);
+}
+
+.dropdown-body {
+  padding: 0 10px;
+  font-size: 12px;
+  max-height: 0;
+  overflow: hidden;
+}

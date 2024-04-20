@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+html,
+body,
+#root,
+#app {
+  height: 100%;
+}
+
 html {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -20,6 +27,15 @@ body {
   color: $black;
 }
 
+#app {
+  display: flex;
+  flex-direction: column;
+}
+
+.page {
+  flex: 1;
+}
+
 h1,
 .h1 {
   font-size: 24px;
@@ -32,7 +48,7 @@ h2 {
 
 .container {
   width: 335px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 img.responsive {
