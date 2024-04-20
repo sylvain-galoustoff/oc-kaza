@@ -5,6 +5,7 @@ import Tag from "./Tag";
 import Rating from "./Rating";
 import HostCard from "./HostCard";
 import Dropdown from "../../common/Dropdown";
+import Slider from "./slider/Slider";
 
 function Logement() {
   const [logement, setLogement] = useState();
@@ -29,9 +30,7 @@ function Logement() {
   if (logement) {
     return (
       <div className="page container" id="logement">
-        <div id="slider">
-          <img src={logement.pictures[0]} className="responsive" />
-        </div>
+        <Slider pictures={logement.pictures} />
 
         <div id="logement-header">
           <div id="logement-data">

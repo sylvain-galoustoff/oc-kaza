@@ -2,4 +2,30 @@
   height: 255px;
   border-radius: $radius;
   overflow: hidden;
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slider-arrow {
+  position: relative;
+  z-index: 10;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    height: 100%;
+    width: 100%;
+    border-radius: $radius;
+    object-fit: cover;
+  }
 }
