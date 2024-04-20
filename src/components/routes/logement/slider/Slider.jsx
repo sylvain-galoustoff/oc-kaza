@@ -7,7 +7,6 @@ function Slider({ pictures }) {
   const [currentPicture, setCurrentPicture] = useState(0);
 
   const changeSlide = (direction) => {
-    console.log(direction);
     if (direction === "previous" && currentPicture === 0) {
       setCurrentPicture(pictures.length - 1);
     } else if (direction === "previous") {
