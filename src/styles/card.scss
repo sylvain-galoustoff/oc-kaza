@@ -23,3 +23,10 @@
 .card-title {
   color: $white;
 }
+
+@media screen and (min-width: 1200px) {
+  .card {
+    height: 340px;
+    max-width: 340px;
+  }
+}

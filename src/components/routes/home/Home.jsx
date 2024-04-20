@@ -10,7 +10,7 @@ function Home() {
   return (
     <div className="page container" id="home">
       <Jumbo />
-      {renderCards}
+      <div id="logements-list">{renderCards}</div>
     </div>
   );
 }

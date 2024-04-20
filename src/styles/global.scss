@@ -51,7 +51,6 @@ h2 {
   min-width: 335px;
   max-width: 1240px;
   margin: 0 auto;
-  @include dev;
 }
 
 img.responsive {
@@ -60,8 +59,18 @@ img.responsive {
 }
 
 /* HOME */
-#home {
+#logements-list {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  #logements-list {
+    background-color: $background;
+    padding: 40px;
+    gap: 40px;
+    border-radius: 25px;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

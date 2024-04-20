@@ -29,3 +29,9 @@
     object-fit: cover;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  #slider {
+    height: 415px;
+  }
+}
