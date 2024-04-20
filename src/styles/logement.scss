@@ -121,4 +121,21 @@
     height: 25px;
     font-size: 14px;
   }
+
+  #logement-body {
+    flex-direction: row;
+    gap: 40px;
+
+    .dropdown {
+      flex: 1;
+    }
+  }
+
+  #about {
+    #logement-body {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 40px;
+    }
+  }
 }

@@ -23,3 +23,19 @@
   font-weight: 500;
   font-size: 18px;
 }
+
+@media screen and (min-width: 1200px) {
+  #not-found {
+    a {
+      font-size: 18px;
+    }
+  }
+
+  #big-404 {
+    font-size: 288px;
+  }
+
+  #error-message {
+    font-size: 36px;
+  }
+}

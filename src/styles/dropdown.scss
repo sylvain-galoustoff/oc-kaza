@@ -1,4 +1,6 @@
 .dropdown {
+  max-width: 1023px;
+
   &.open {
     .chevron {
       transform: rotate(180deg);
