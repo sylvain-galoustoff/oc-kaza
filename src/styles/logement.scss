@@ -33,7 +33,7 @@
   background-color: $primary;
   color: $white;
   padding: 5px;
-  width: 90px;
+  width: auto;
   border-radius: $radius;
   font-size: 10px;
   display: flex;
@@ -117,7 +117,6 @@
   }
 
   .tag {
-    width: 115px;
     height: 25px;
     font-size: 14px;
   }
