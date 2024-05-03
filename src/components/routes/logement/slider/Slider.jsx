@@ -26,11 +26,7 @@ function Slider({ pictures }) {
       id="arrow-previous"
       onClick={() => changeSlide("previous")}
     >
-      <img
-        src={arrowPrevious}
-        alt="Flèche pour voir l'image précédente"
-        className="responsive"
-      />
+      <img src={arrowPrevious} alt="Flèche pour voir l'image précédente" />
     </div>
   );
 
@@ -40,11 +36,13 @@ function Slider({ pictures }) {
       id="arrow-next"
       onClick={() => changeSlide("next")}
     >
-      <img
-        src={arrowNext}
-        alt="Flèche pour voir l'image précédente"
-        className="responsive"
-      />
+      <img src={arrowNext} alt="Flèche pour voir l'image précédente" />
+    </div>
+  );
+
+  const slideCount = (
+    <div id="slide-count">
+      {currentPicture + 1} / {pictures.length}
     </div>
   );
 
@@ -54,6 +52,7 @@ function Slider({ pictures }) {
 
       <div className="slide">
         <img src={pictures[currentPicture]} />
+        {pictures.length > 1 && slideCount}
       </div>
 
       {pictures.length > 1 && nextIcon}
